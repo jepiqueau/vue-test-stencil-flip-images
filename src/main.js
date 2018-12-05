@@ -4,8 +4,9 @@ import router from "./router";
 import store from "./store";
 import { defineCustomElements as flipimages } from "stencil-flipimages/dist/loader";
 
-Vue.config.productionTip = false;
-Vue.config.ignoredElements = [/^ion-/];
+import Ionic from "@ionic/vue";
+
+Vue.use(Ionic);
 Vue.config.ignoredElements = [/jeep-\w*/];
 
 flipimages(window);
