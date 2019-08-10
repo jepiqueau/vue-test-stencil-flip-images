@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import { defineCustomElements as flipimages } from "stencil-flipimages/dist/loader";
+import { defineCustomElements as flipimages } from "stencil-flipimages/loader";
 
 import Ionic from "@ionic/vue";
 import "@ionic/core/css/ionic.bundle.css";

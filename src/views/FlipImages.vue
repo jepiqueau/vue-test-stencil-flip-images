@@ -12,22 +12,22 @@
     <ion-content>
       <template v-if="this.type === 'l_horizontal'">
         <jeep-flipimages type="horizontal" fpadding="2">
-          <img src="@/assets/images/image_s1.jpg" alt="deer" />
-          <img src="@/assets/images/image_s2.jpg" alt="elephant" />
-          <img src="@/assets/images/image_s3.jpg" alt="tiger" />
-          <img src="@/assets/images/image_s4.jpg" alt="lion" />
-          <img src="@/assets/images/image_s5.jpg" alt="eagle" />
-          <img src="@/assets/images/image_s6.jpg" alt="eagle head" />
+          <img src="@/assets/images/deerl.jpg" alt="deer" />
+          <img src="@/assets/images/elephantl.jpg" alt="elephant" />
+          <img src="@/assets/images/tigerl.jpg" alt="tiger" />
+          <img src="@/assets/images/lionl.jpg" alt="lion" />
+          <img src="@/assets/images/eaglel.jpg" alt="eagle" />
+          <img src="@/assets/images/eagleheadl.jpg" alt="eagle head" />
         </jeep-flipimages>
       </template>
       <template v-if="this.type === 'l_vertical'">
         <jeep-flipimages type="vertical" fpadding="2">
-          <img src="@/assets/images/image_s1.jpg" alt="deer" />
-          <img src="@/assets/images/image_s2.jpg" alt="elephant" />
-          <img src="@/assets/images/image_s3.jpg" alt="tiger" />
-          <img src="@/assets/images/image_s4.jpg" alt="lion" />
-          <img src="@/assets/images/image_s5.jpg" alt="eagle" />
-          <img src="@/assets/images/image_s6.jpg" alt="eagle head" />
+          <img src="@/assets/images/deerl.jpg" alt="deer" />
+          <img src="@/assets/images/elephantl.jpg" alt="elephant" />
+          <img src="@/assets/images/tigerl.jpg" alt="tiger" />
+          <img src="@/assets/images/lionl.jpg" alt="lion" />
+          <img src="@/assets/images/eaglel.jpg" alt="eagle" />
+          <img src="@/assets/images/eagleheadl.jpg" alt="eagle head" />
         </jeep-flipimages>
       </template>
       <template v-if="this.type === 'p_horizontal'">
